@@ -1099,7 +1099,7 @@ pylith::topology::Field::vector(const char* context)
 
 // ----------------------------------------------------------------------
 // Get PETSc vector associated with field.
-const PetscVec
+PetscVec
 pylith::topology::Field::vector(const char* context) const
 { // vector
   PYLITH_METHOD_BEGIN;

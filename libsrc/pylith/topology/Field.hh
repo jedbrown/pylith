@@ -401,7 +401,7 @@ public :
    * @param context Label for context associated with vector.
    * @returns PETSc vector.
    */
-  const PetscVec vector(const char* context ="") const;
+  PetscVec vector(const char* context ="") const;
 
   /** Scatter section information across processors to update the
    * global view of the field.

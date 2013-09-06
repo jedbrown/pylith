@@ -71,7 +71,7 @@ pylith::topology::Jacobian::deallocate(void)
 
 // ----------------------------------------------------------------------
 // Get PETSc matrix.
-const PetscMat
+PetscMat
 pylith::topology::Jacobian::matrix(void) const
 { // matrix
   return _matrix;

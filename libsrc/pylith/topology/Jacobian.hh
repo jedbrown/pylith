@@ -63,7 +63,7 @@ public :
    *
    * @returns PETSc sparse matrix.
    */
-  const PetscMat matrix(void) const;
+  PetscMat matrix(void) const;
 
   /** Get PETSc matrix.
    *
