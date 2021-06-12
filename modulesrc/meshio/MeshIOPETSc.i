@@ -39,18 +39,6 @@ namespace pylith {
 
       /// Deallocate PETSc and local data structures.
       void deallocate(void);
-  
-      /** Set filename for ASCII file.
-       *
-       * @param filename Name of file
-       */
-      void filename(const char* name);
-      
-      /** Get filename of ASCII file.
-       *
-       * @returns Name of file
-       */
-      const char* filename(void) const;
 
       // PROTECTED METHODS //////////////////////////////////////////////
     protected :

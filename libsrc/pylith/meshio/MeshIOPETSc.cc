@@ -87,7 +87,7 @@ pylith::meshio::MeshIOPETSc::_read(void) { // _read
     
     assert(_mesh);
 
-    MPI_Comm comm = _mesh->comm()
+    MPI_Comm comm = _mesh->comm();
 
     PetscDM dm = NULL;
     DMCreate(comm, &dm);
